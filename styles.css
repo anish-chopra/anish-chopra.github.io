@@ -1,0 +1,77 @@
+body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 250px;
+}
+tr, td {
+    padding-bottom: 5px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: blue;
+  }
+  .fewd, .code {
+    color: blue;
+  }
+  a:hover, .fewd:hover, .code:hover {
+    text-decoration: underline;
+    cursor: default;
+  }
+  #imageHover:hover {
+    opacity: 85%;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  ul.nav {
+    margin-top: 0;
+  }
+p {
+    line-height: 1.5rem;
+}
+li {
+    margin-bottom: 1rem;
+}
+#treehouse {
+    display: none;
+}
+#codecademy {
+    display: none;
+}
+
+@media (min-width: 450px) {
+    .nav {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        width: 725px;
+        margin: 1rem auto;
+    }
+}
+/* @media (min-width: 950px) {
+    body {
+        width: 900px;
+        margin: 1rem auto;
+    }
+} */
+/* @media (min-width: 1024px) {
+    body {
+        width: 1000px;
+        margin: 1rem auto;
+    }
+} */
