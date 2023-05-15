@@ -2,7 +2,12 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
+}
+.arial {
     font-family: Arial, Helvetica, sans-serif;
+}
+.weirdFont {
+    font-family: comic-sans;
 }
 img {
     width: 250px;
@@ -50,6 +55,9 @@ li {
 }
 .li {
     list-style: none;
+}
+#svg {
+    fill: white;
 }
 
 @media (min-width: 450px) {
