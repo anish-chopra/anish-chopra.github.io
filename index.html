@@ -12,7 +12,7 @@
     <!-- HEADER -->
     <header>
         <div>
-    <img src="anish.jpg">
+    <img src="anish.jpg" alt="picture-of-anish">
     <h1>Anish Chopra</h1>
 </div>
     <table>
@@ -87,13 +87,13 @@ development team where I can collaborate with and learn from senior members.</p>
 <section>
     <h2 id="training">Training & Certificates</h2>
     <ul>
-        <li>TreeHouse / <span class="fewd" id="fewd" onclick="fewd()">Front-End Web Development Techdegree</span></li>
-        <img class="treehouse" id="treehouse" src="treehouse.png">
+        <li>TreeHouse / <span class="fewd" id="fewd">Front-End Web Development Techdegree</span></li>
+        <li class="li"><img class="treehouse" id="treehouse" src="treehouse.png" alt="treehouse-certificate"></li>
         <li>TreeHouse / Full-Stack Javascript Techdegree</li>
         <li>Code with Mosh / Advanced Javascript & OOP Certification</li>
         <li>Code with Mosh / Advanced React.js Certification</li>
-        <li>Codecademy / <span class="code" id="code" onclick="code()">Learn React Native</span></li>
-        <img class="codecademy" id="codecademy" src="codecademy.png">
+        <li>Codecademy / <span class="code" id="code">Learn React Native</span></li>
+        <li class="li"><img class="codecademy" id="codecademy" src="codecademy.png" alt="codecademy-certificate"></li>
     </ul>
 </section>
 
@@ -109,39 +109,14 @@ development team where I can collaborate with and learn from senior members.</p>
 <section>
     <h2 id="projects">Projects</h2>
     <ul>
-        <li>Registration Form<br><br><a id="imageHover" href="https://anish-chopra.github.io/Project-3/" target="_blank"><img src="registration.jpg"></a></li>
-        <li>Interactive Photo Gallery<br><br><a id="imageHover" href="https://anish-chopra.github.io/interactive-photo-gallery/" target="_blank"><img src="photo.jpg"></a></li>
-        <li>Game Show App<br><br><a id="imageHover" href="https://anish-chopra.github.io/game-show-app/" target="_blank"><img src="gameshow.jpg"></a></li>
-        <li>WebApp Dashboard<br><br><a id="imageHover" href="https://anish-chopra.github.io/webapp-dashboard/" target="_blank"><img src="dashboard.jpg"></a></li>
-        <li>API Employee Directory<br><br><a id="imageHover" href="https://anish-chopra.github.io/employee-directory/" target="_blank"><img src="employees.jpg"></a></li>
+        <li>Registration Form<br><br><a class="imageHover" href="https://anish-chopra.github.io/Project-3/" target="_blank"><img alt="picture-of-registration-on-tablet" src="registration.jpg"></a></li>
+        <li>Interactive Photo Gallery<br><br><a class="imageHover" href="https://anish-chopra.github.io/interactive-photo-gallery/" target="_blank"><img  alt="girl-on-computer" src="photo.jpg"></a></li>
+        <li>Game Show App<br><br><a class="imageHover" href="https://anish-chopra.github.io/game-show-app/" target="_blank"><img alt="kid-playing-computer-game" src="gameshow.jpg"></a></li>
+        <li>WebApp Dashboard<br><br><a class="imageHover" href="https://anish-chopra.github.io/webapp-dashboard/" target="_blank"><img alt="graph-on-computer" src="dashboard.jpg"></a></li>
+        <li>API Employee Directory<br><br><a class="imageHover" href="https://anish-chopra.github.io/employee-directory/" target="_blank"><img alt="employees-at-work" src="employees.jpg"></a></li>
     </ul>
     </section>
 
-
+    <script src="app.js"></script>
 </body>
-<script>
-    const treehouse = document.getElementById('treehouse');
-    const codecademy = document.getElementById('codecademy');
-    function fewd() {
-        if (treehouse.style.display == "none") {
-            treehouse.style.display = "block"
-            treehouse.style.width = "100%"
-        } else {
-            treehouse.style.display = "none";
-        }
-    }
-    function code() {
-        if (codecademy.style.display == "none") {
-            codecademy.style.display = "block"
-            codecademy.style.width = "100%"
-        } else {
-            codecademy.style.display = "none";
-        }
-    }
-    
-
-
-
-
-</script>
 </html>
